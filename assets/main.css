@@ -1,0 +1,13 @@
+.page-enter-active, .page-leave-active {
+  transition: opacity 1s;
+}
+.page-enter, .page-leave-to {
+  opacity: 0;
+}
+
+.about-enter-active, .about-leave-active {
+    transition: opacity .5s;
+  }
+  .about-enter, .about-leave-active {
+    opacity: 0;
+  }
